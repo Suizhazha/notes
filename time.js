@@ -15,23 +15,23 @@ function clock () {
   return resultTimne;
 }
 function toWeek (week) {
-  let resuleWeek = '';
+  let returnWeek = '';
   switch (week) {
     case 0:
-      resuleWeek = '日';
+      returnWeek = '日';
     case 1:
-      resuleWeek = '一';
+      returnWeek = '一';
     case 2:
-      resuleWeek = '二';
+      returnWeek = '二';
     case 3:
-      resuleWeek = '三';
+      returnWeek = '三';
     case 4:
-      resuleWeek = '四';
+      returnWeek = '四';
     case 5:
-      resuleWeek = '五';
+      returnWeek = '五';
     case 6:
-      resuleWeek = '六';
+      returnWeek = '六';
   }
-  return '星期' + resuleWeek;
+  return '星期' + returnWeek;
 }
 console.log(clock());
